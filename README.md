@@ -1,3 +1,5 @@
+Edit : Ce dépôt a été importé depuis GitLab. Il s'agit d'un dépôt forké qui adapte les fonctionnalités de base de pyVHR, aux attentes de mon stage de 2021.
+
 # pyvhr_v2
 
 Depuis le dossier racine, lancer : python -m main.py video_filename video_extension
@@ -13,8 +15,3 @@ Ensuite, pyVHR est appliquée sur la vidéo enregistrée dans le dossier cropped
 Une onglet s'ouvre sur le navigateur par défaut avec le graphe iPPG et le graphe est enregistré sous forme de .csv dans le dossier csv.
 
 Pour comparer 2 graphes, lancer la commande python compare.py csv_filename1 csv_filename2 (sans les extensions).
-
-Pour tout bugs, questions, proposition d'améliorations, il faut absolument m'envoyer un message sur discord ou par mail et je règlerai ça au plus vite. 
-
-- gpoloudenny@gmail.com
-- Ayzikin#9079
