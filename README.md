@@ -1,4 +1,4 @@
-Edit : Ce dépôt a été importé depuis GitLab. Il s'agit d'un dépôt forké qui adapte les fonctionnalités de base de pyVHR, aux attentes de mon stage de 2021.
+Edit : Ce dépôt a été importé depuis GitLab. Il s'agit d'un dépôt forké qui adapte les fonctionnalités de base de pyVHR, aux attentes de mon stage de 2021. Pour plus d'explications sur ce qu'est pyVHR : https://github.com/phuselab/pyVHR.
 
 # pyvhr_v2
 
