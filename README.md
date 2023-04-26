@@ -1,17 +1,17 @@
-Edit : Ce dépôt a été importé depuis GitLab. Il s'agit d'un dépôt forké qui adapte les fonctionnalités de base de pyVHR, aux attentes de mon stage de 2021. Pour plus d'explications sur ce qu'est pyVHR : https://github.com/phuselab/pyVHR.
+Edit : This repository was imported from GitLab. This is a forked repository that adapts the basic functionality of pyVHR, to the expectations of my 2021 internship. For more explanation on what pyVHR is: https://github.com/phuselab/pyVHR.
 
 # pyvhr_v2
 
-Depuis le dossier racine, lancer : python -m main.py video_filename video_extension
+From the root folder, run: python -m main.py video_filename video_extension
 
-Exemple : python -m main.py face mp4
+Example: python -m main.py face mp4
 
-Le fichier vidéo doit se situer dans le dossier sampleDataset
+The video file must be located in the sampleDataset folder
 
-En premier lieu, pyVHR enregistre la vidéo avec le visage extrait, sous forme de .npz dans le dossier cropped.
-Cette opération est longue (~5 minutes pour une durée de 10 secondes).
+First, pyVHR saves the video with the extracted face, as a .npz in the cropped folder.
+This operation is long (~5 minutes for a duration of 10 seconds).
 
-Ensuite, pyVHR est appliquée sur la vidéo enregistrée dans le dossier cropped, ce qui ne prend pas beaucoup de temps (5~10 secondes).
-Une onglet s'ouvre sur le navigateur par défaut avec le graphe iPPG et le graphe est enregistré sous forme de .csv dans le dossier csv.
+Then pyVHR is applied to the recorded video in the cropped folder, which doesn't take much time (5~10 seconds).
+A tab opens on the default browser with the iPPG graph and the graph is saved as .csv in the csv folder.
 
-Pour comparer 2 graphes, lancer la commande python compare.py csv_filename1 csv_filename2 (sans les extensions).
+To compare 2 graphs, run the python command compare.py csv_filename1 csv_filename2 (without extensions).
